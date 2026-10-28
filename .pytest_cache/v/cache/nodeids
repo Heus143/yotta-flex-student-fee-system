@@ -1,0 +1,5 @@
+[
+  "tests/test_project.py::test_fixed_seed_reproducible_core_tables",
+  "tests/test_project.py::test_ids_follow_required_conventions",
+  "tests/test_project.py::test_starter_generation_and_required_anomalies"
+]
