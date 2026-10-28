@@ -285,6 +285,18 @@ def generate_dataset(outdir="output", students_n=100, programs_n=5, invoices_n=3
         payment_remaining[pid] = money(amount - allocated)
         invoice_balances[inv_idx] = money(max(0.0, float(invoice_balances[inv_idx]) - allocated))
 
+        # Calculate late fees as of 2026-10-28
+    as_of_date = date(2026, 10, 28)
+
+    for idx, inv in invoices_df.iterrows():
+        due_date = date.fromisoformat(inv["due_date"])
+        outstanding = max(0.0, float(invoice_balances[idx]))
+
+        if as_of_date > due_date and outstanding > 0:
+            fee = money(min(outstanding * LATE_FEE_RATE, LATE_FEE_CAP))
+            invoices_df.at[idx, "late_fee"] = fee
+            invoice_balances[idx] = money(outstanding + fee)
+
     invoices_df["balance"] = invoices_df.index.map(invoice_balances)
     payments_df=pd.DataFrame(payment_rows, columns=COLUMNS["Payment"])
     alloc_df=pd.DataFrame(alloc_rows, columns=COLUMNS["PaymentAllocation"])
