@@ -1,0 +1,42 @@
+[
+  {
+    "issue_id":"ISSUE-0001",
+    "issue_type":"ALLOCATION_EXCEEDS_PAYMENT",
+    "entity_type":"PaymentAllocation",
+    "entity_id":"ALLOC-PAY-2026-000001-01",
+    "expected_result":"FLAG",
+    "rule":"Sum of allocations for a payment must not exceed payment amount"
+  },
+  {
+    "issue_id":"ISSUE-0002",
+    "issue_type":"SCHOLARSHIP_EXCEEDS_ELIGIBLE_FEES",
+    "entity_type":"Scholarship",
+    "entity_id":"SCH-2026-000001",
+    "expected_result":"FLAG",
+    "rule":"Scholarship award must not exceed eligible fee amount"
+  },
+  {
+    "issue_id":"ISSUE-0003",
+    "issue_type":"DUPLICATE_INVOICE",
+    "entity_type":"Invoice",
+    "entity_id":"INV-STU-000001-2026-000001-DUP",
+    "expected_result":"FLAG",
+    "rule":"One invoice per enrollment and term billing event"
+  },
+  {
+    "issue_id":"ISSUE-0004",
+    "issue_type":"REFUND_EXCEEDS_NET_PAID",
+    "entity_type":"Refund",
+    "entity_id":"RFD-000001",
+    "expected_result":"FLAG",
+    "rule":"Refund total must not exceed net settled payment amount"
+  },
+  {
+    "issue_id":"ISSUE-0005",
+    "issue_type":"BALANCE_DISAGREES_WITH_LEDGER",
+    "entity_type":"Invoice",
+    "entity_id":"INV-STU-000001-2026-000001",
+    "expected_result":"FLAG",
+    "rule":"Stored balance must reconcile to invoice lines and posted allocations"
+  }
+]

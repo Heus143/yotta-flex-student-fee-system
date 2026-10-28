@@ -1,0 +1,63 @@
+{
+  "seed": 20261022,
+  "status": "COMPLETED_WITH_DETECTED_ANOMALIES",
+  "row_counts": {
+    "Student": 10000,
+    "Program": 20,
+    "FeeSchedule": 60,
+    "Enrollment": 30000,
+    "Invoice": 30001,
+    "InvoiceLine": 88078,
+    "Scholarship": 15000,
+    "Eligibility": 15000,
+    "Payment": 50000,
+    "PaymentAllocation": 47157,
+    "Refund": 1351
+  },
+  "ground_truth_rows": 5,
+  "finding_count": 5,
+  "findings": [
+    {
+      "check": "ALLOCATION_EXCEEDS_PAYMENT",
+      "count": 1,
+      "severity": "ERROR",
+      "ids": [
+        "PAY-2026-000001"
+      ]
+    },
+    {
+      "check": "DUPLICATE_INVOICE",
+      "count": 2,
+      "severity": "ERROR",
+      "ids": [
+        "INV-STU-000001-2026-000001",
+        "INV-STU-000001-2026-000001-DUP"
+      ]
+    },
+    {
+      "check": "SCHOLARSHIP_EXCEEDS_ELIGIBLE_FEES",
+      "count": 1,
+      "severity": "ERROR",
+      "ids": [
+        "SCH-2026-000001"
+      ]
+    },
+    {
+      "check": "REFUND_EXCEEDS_NET_PAID",
+      "count": 1,
+      "severity": "ERROR",
+      "ids": [
+        "RFD-000001"
+      ]
+    },
+    {
+      "check": "BALANCE_DISAGREES_WITH_LEDGER",
+      "count": 1,
+      "severity": "ERROR",
+      "ids": [
+        "INV-STU-000001-2026-000001"
+      ]
+    }
+  ],
+  "note": "Findings are computed from the generated data. Expected anomaly fixtures are described in ground_truth.csv."
+}

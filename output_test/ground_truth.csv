@@ -1,0 +1,6 @@
+issue_id,issue_type,entity_type,entity_id,expected_result,rule
+ISSUE-0001,ALLOCATION_EXCEEDS_PAYMENT,PaymentAllocation,ALLOC-PAY-2026-000001-01,FLAG,Sum of allocations for a payment must not exceed payment amount
+ISSUE-0002,SCHOLARSHIP_EXCEEDS_ELIGIBLE_FEES,Scholarship,SCH-2026-000001,FLAG,Scholarship award must not exceed eligible fee amount
+ISSUE-0003,DUPLICATE_INVOICE,Invoice,INV-STU-000001-2026-000001-DUP,FLAG,One invoice per enrollment and term billing event
+ISSUE-0004,REFUND_EXCEEDS_NET_PAID,Refund,RFD-000001,FLAG,Refund total must not exceed net settled payment amount
+ISSUE-0005,BALANCE_DISAGREES_WITH_LEDGER,Invoice,INV-STU-000001-2026-000001,FLAG,Stored balance must reconcile to invoice lines and posted allocations

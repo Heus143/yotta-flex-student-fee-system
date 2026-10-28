@@ -1,0 +1,6 @@
+program_id,program_name,level,standard_tuition,active
+PRG-000001,Program 01,POSTGRADUATE,2775.0,True
+PRG-000002,Program 02,CERTIFICATE,3050.0,True
+PRG-000003,Program 03,UNDERGRADUATE,3325.0,True
+PRG-000004,Program 04,POSTGRADUATE,3200.0,True
+PRG-000005,Program 05,CERTIFICATE,3475.0,True

@@ -1,0 +1,142 @@
+[
+  {
+    "program_id":"PRG-000001",
+    "program_name":"Program 01",
+    "level":"POSTGRADUATE",
+    "standard_tuition":2775.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000002",
+    "program_name":"Program 02",
+    "level":"CERTIFICATE",
+    "standard_tuition":3050.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000003",
+    "program_name":"Program 03",
+    "level":"UNDERGRADUATE",
+    "standard_tuition":3325.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000004",
+    "program_name":"Program 04",
+    "level":"POSTGRADUATE",
+    "standard_tuition":3200.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000005",
+    "program_name":"Program 05",
+    "level":"CERTIFICATE",
+    "standard_tuition":3475.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000006",
+    "program_name":"Program 06",
+    "level":"UNDERGRADUATE",
+    "standard_tuition":3750.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000007",
+    "program_name":"Program 07",
+    "level":"POSTGRADUATE",
+    "standard_tuition":4025.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000008",
+    "program_name":"Program 08",
+    "level":"CERTIFICATE",
+    "standard_tuition":3900.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000009",
+    "program_name":"Program 09",
+    "level":"UNDERGRADUATE",
+    "standard_tuition":4175.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000010",
+    "program_name":"Program 10",
+    "level":"POSTGRADUATE",
+    "standard_tuition":4450.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000011",
+    "program_name":"Program 11",
+    "level":"CERTIFICATE",
+    "standard_tuition":4725.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000012",
+    "program_name":"Program 12",
+    "level":"UNDERGRADUATE",
+    "standard_tuition":4600.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000013",
+    "program_name":"Program 13",
+    "level":"POSTGRADUATE",
+    "standard_tuition":4875.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000014",
+    "program_name":"Program 14",
+    "level":"CERTIFICATE",
+    "standard_tuition":5150.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000015",
+    "program_name":"Program 15",
+    "level":"UNDERGRADUATE",
+    "standard_tuition":5425.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000016",
+    "program_name":"Program 16",
+    "level":"POSTGRADUATE",
+    "standard_tuition":5300.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000017",
+    "program_name":"Program 17",
+    "level":"CERTIFICATE",
+    "standard_tuition":5575.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000018",
+    "program_name":"Program 18",
+    "level":"UNDERGRADUATE",
+    "standard_tuition":5850.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000019",
+    "program_name":"Program 19",
+    "level":"POSTGRADUATE",
+    "standard_tuition":6125.0,
+    "active":true
+  },
+  {
+    "program_id":"PRG-000020",
+    "program_name":"Program 20",
+    "level":"CERTIFICATE",
+    "standard_tuition":6000.0,
+    "active":true
+  }
+]

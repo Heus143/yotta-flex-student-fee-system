@@ -1,0 +1,43 @@
+{
+  "project": "Student Tuition Fee Management and Reconciliation System",
+  "seed": 20261022,
+  "term_id": "TERM-2026-FALL",
+  "external_data_used": false,
+  "generated_at": "DETERMINISTIC_SYNTHETIC_TIMESTAMP",
+  "scale": {
+    "students": 100,
+    "programs": 5,
+    "invoices_requested": 300,
+    "scholarships_requested": 150,
+    "payments_requested": 500
+  },
+  "files": [
+    "eligibility.csv",
+    "eligibilitys.json",
+    "enrollments.csv",
+    "enrollments.json",
+    "events.csv",
+    "fee_schedules.csv",
+    "feeschedules.json",
+    "ground_truth.csv",
+    "ground_truth.json",
+    "invoice_lines.csv",
+    "invoicelines.json",
+    "invoices.csv",
+    "invoices.json",
+    "payment_allocations.csv",
+    "paymentallocations.json",
+    "payments.csv",
+    "payments.json",
+    "programs.csv",
+    "programs.json",
+    "refunds.csv",
+    "refunds.json",
+    "scholarships.csv",
+    "scholarships.json",
+    "student_fee_system.sqlite",
+    "students.csv",
+    "students.json",
+    "validation_summary.json"
+  ]
+}
