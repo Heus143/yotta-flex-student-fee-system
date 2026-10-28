@@ -76,6 +76,7 @@ Generated files are written to `output/`:
 - The duplicate-invoice scenario is intentionally introduced after baseline creation and marked in ground truth.
 - A generated dataset is a reviewable synthetic test fixture, not a legally compliant production billing platform.
 - Cancellation/refund policy, late-fee rate, scholarship eligibility thresholds, and term dates are explicit assumptions in `config.py`. Update them only with documented rationale.
+- Late fees are calculated using a fixed as-of date of 2026-10-28, at 1.5% of overdue outstanding balance, capped at USD 75. This is a synthetic evaluation assumption, not a dynamically updated current date.
 
 ## AI assistance disclosure
 Keep a copy of the actual prompts used with every AI tool in `docs/AI_PROMPT_HISTORY.md`. Add your own prompts and note what you personally reviewed, changed, ran, and validated. Do not claim tests passed unless you ran them.

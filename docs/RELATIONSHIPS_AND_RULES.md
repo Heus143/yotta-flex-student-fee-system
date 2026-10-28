@@ -27,7 +27,7 @@
 5. Scholarship credit is recorded as a negative invoice line; invoice gross is the sum of invoice lines.
 6. A payment allocation must be positive and must not exceed either available payment amount or the outstanding amount of the target invoice line.
 7. A refund must not exceed the payment's net amount paid after earlier refunds.
-8. Late fee assumption: 1.5% of overdue outstanding amount, capped at USD 75. The generator records a late-fee field; the full scale's late-fee evaluation can be extended using a chosen as-of date.
+8. Late fee assumption: 1.5% of the overdue outstanding balance, capped at USD 75. The generator calculates late fees as of 2026-10-28. Fees are applied only when the invoice due date is before the as-of date and the outstanding balance is greater than zero.
 9. Withdrawal/cancellation treatment must follow a documented institutional refund policy. This starter project records withdrawal events and status but does not invent a universal tuition refund policy.
 10. Reconciliation compares source ledger totals to stored invoice balance. An injected mismatch is expected and explicitly labelled.
 
